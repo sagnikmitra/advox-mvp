@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "lawyer_login": "Lawyer Login",
+    "client_login": "Client Login"
+  },
+  "footer": {
+    "tagline": "Simplifying legal services in India with technology",
+    "data_protected": "Data Protected",
+    "secure": "Secure Service",
+    "services": "Practice Areas",
+    "family_law": "Family Law",
+    "property_law": "Property Law",
+    "criminal_law": "Criminal Law",
+    "corporate_law": "Corporate Law",
+    "civil_law": "Civil Law",
+    "quick_links": "Quick Links",
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies Policy",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "address_value": "123 Legal Street, New Delhi, 110001, India",
+    "rights_reserved": "All rights reserved."
+  },
+  "landing": {
+    "hero": {
+      "title": "Legal Solutions Made Simple",
+      "subtitle": "Connect with verified lawyers or manage your legal practice with our comprehensive platform",
+      "find_lawyer": "Find a Lawyer",
+      "lawyer_login": "I am a Lawyer"
+    },
+    "features": {
+      "title": "Why Choose Advox?",
+      "verified": {
+        "title": "Verified Lawyers",
+        "description": "All lawyers on our platform are verified for their credentials and expertise"
+      },
+      "secure": {
+        "title": "Secure Communications",
+        "description": "End-to-end encrypted messaging and document sharing for complete privacy"
+      },
+      "ecourts": {
+        "title": "Case Status Updates",
+        "description": "Real-time updates on your case status through eCourts API integration"
+      },
+      "payments": {
+        "title": "Secure Payments",
+        "description": "Transparent fee structure with milestone-based payments"
+      }
+    },
+    "for_lawyers": {
+      "title": "For Lawyers",
+      "subtitle": "Saral Vakil - Streamline your practice with our powerful tools",
+      "case_management": "Comprehensive case management",
+      "client_billing": "Simplified billing and invoicing",
+      "document_storage": "Secure document storage",
+      "client_communication": "Integrated client communication",
+      "cta": "Join as a Lawyer"
+    },
+    "for_clients": {
+      "title": "For Clients",
+      "subtitle": "Nyay Connect - Find the right lawyer for your needs",
+      "find_lawyers": "Find verified lawyers by expertise",
+      "transparent_fees": "Transparent fee structure",
+      "secure_payments": "Secure payment protection",
+      "track_cases": "Track your case progress",
+      "cta": "Find a Lawyer"
+    },
+    "practice_areas": {
+      "title": "Practice Areas",
+      "description": "Find lawyers specializing in various legal domains",
+      "family": "Family Law",
+      "property": "Property Law",
+      "criminal": "Criminal Law",
+      "corporate": "Corporate Law",
+      "civil": "Civil Litigation",
+      "intellectual": "Intellectual Property",
+      "tax": "Tax Law",
+      "immigration": "Immigration Law"
+    },
+    "testimonials": {
+      "title": "What People Say",
+      "client": {
+        "name": "Rahul Sharma",
+        "role": "Client",
+        "quote": "I found a property lawyer within hours and got my issue resolved in just a week. Highly recommended!"
+      },
+      "lawyer": {
+        "name": "Adv. Priya Patel",
+        "role": "Lawyer",
+        "quote": "Advox has streamlined my practice management and brought in new clients consistently."
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Join thousands of lawyers and clients already using Advox",
+      "lawyer_button": "Register as a Lawyer",
+      "client_button": "Find a Lawyer"
+    }
+  }
+}

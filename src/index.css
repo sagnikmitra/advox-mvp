@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Agrandir';
+  src: url('https://db.onlinewebfonts.com/t/2d111a3f4f6f8ab385c1c3b0a7b0f27d.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: url('https://db.onlinewebfonts.com/t/ea5879a9b3223d9d1d1f9a869ad462d5.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Agrandir Wide';
+  src: url('https://db.onlinewebfonts.com/t/0c98abcf69df9e5c3710f1e7a2c99d3d.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Agrandir Wide';
+  src: url('https://db.onlinewebfonts.com/t/d6fb2fb052b1fbc1bc0d5f73e1fd7966.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    font-family: 'Agrandir', sans-serif;
+    @apply text-neutral-900 dark:text-neutral-100 scroll-smooth;
+  }
+  
+  body {
+    @apply bg-neutral-50 dark:bg-neutral-900 transition-colors;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Agrandir Wide', sans-serif;
+    @apply font-bold leading-tight dark:text-neutral-100;
+  }
+  
+  p, li, span, div {
+    font-family: 'Agrandir', sans-serif;
+    @apply leading-relaxed dark:text-neutral-300;
+  }
+
+  .font-bold, .font-semibold {
+    font-family: 'Agrandir Wide', sans-serif;
+  }
+  
+  .hindi-text {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+  }
+
+  /* Additional font overrides */
+  .btn-primary,
+  .btn-secondary,
+  .btn-outline {
+    font-family: 'Agrandir Wide', sans-serif;
+  }
+
+  .nav-link {
+    font-family: 'Agrandir', sans-serif;
+  }
+
+  .card-title {
+    font-family: 'Agrandir Wide', sans-serif;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white font-bold px-5 py-2.5 rounded-lg transition-all hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-400 text-primary-600 font-bold px-5 py-2.5 rounded-lg transition-all hover:bg-secondary-500 focus:ring-4 focus:ring-secondary-300 focus:outline-none dark:text-neutral-100 dark:hover:bg-secondary-500 dark:focus:ring-secondary-700;
+  }
+  
+  .btn-outline {
+    @apply border border-primary-600 text-primary-600 font-bold px-5 py-2.5 rounded-lg transition-all hover:bg-primary-50 focus:ring-4 focus:ring-primary-200 focus:outline-none dark:border-secondary-400 dark:text-secondary-400 dark:hover:bg-neutral-800 dark:focus:ring-secondary-800;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl p-6 shadow-card transition-shadow hover:shadow-card-hover dark:bg-neutral-800 dark:shadow-none dark:border dark:border-neutral-700;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2.5 text-neutral-900 bg-white border border-neutral-300 rounded-lg focus:ring-primary-600 focus:border-primary-600 focus:outline-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-100 dark:focus:ring-secondary-400 dark:focus:border-secondary-400;
+  }
+}
